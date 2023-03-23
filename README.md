@@ -15,3 +15,9 @@
 # Reference
 
 1. https://github.com/divanov11/ecom_steps/blob/master/prt6_stp4_main.css
+2. Cart -1 : https://github.com/divanov11/ecom_steps/blob/master/prt8_stp3_cart.html
+
+
+# Icons
+
+1. https://www.toptal.com/designers/htmlarrows/arrows/
