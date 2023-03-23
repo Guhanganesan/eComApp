@@ -8,3 +8,7 @@
 4. django-admin startapp myapp
 5. hard refresh => ctrl+shift+all
 
+# Bootstrap 4.2 
+
+1. Navbar link: https://getbootstrap.com/docs/4.2/components/navbar/
+
