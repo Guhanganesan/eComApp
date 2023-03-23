@@ -12,3 +12,6 @@
 
 1. Navbar link: https://getbootstrap.com/docs/4.2/components/navbar/
 
+# Reference
+
+1. https://github.com/divanov11/ecom_steps/blob/master/prt6_stp4_main.css
