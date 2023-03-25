@@ -42,3 +42,9 @@ Superuser created successfully.`
 # Icons
 
 1. https://www.toptal.com/designers/htmlarrows/arrows/
+
+# Error Handings
+
+1. Cannot use ImageField because Pillow is not installed 
+
+Solution: python -m pip install Pillow 
