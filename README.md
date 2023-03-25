@@ -27,7 +27,7 @@ Superuser created successfully.`
 
 6. Run => python manage.py runserver        
 7. check => http://127.0.0.1:8000/admin/        
-
+8. add some products in admin sites and write views functions to display product details on products
 
 # Bootstrap 4.2 
 
