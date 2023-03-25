@@ -16,7 +16,7 @@
 
 1. https://github.com/divanov11/ecom_steps/blob/master/prt6_stp4_main.css
 2. Cart -1 : https://github.com/divanov11/ecom_steps/blob/master/prt8_stp3_cart.html
-
+3. Checkout -1 : https://github.com/divanov11/ecom_steps/blob/master/prt9_stp4_checkout.html
 
 # Icons
 
