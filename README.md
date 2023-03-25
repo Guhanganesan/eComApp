@@ -28,6 +28,9 @@ Superuser created successfully.`
 6. Run => python manage.py runserver        
 7. check => http://127.0.0.1:8000/admin/        
 8. add some products in admin sites and write views functions to display product details on products
+9. Upload the images in admin/admin/myapp/product/ after setting MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images') in settings.py file 
+10. set MEDIA_URL =  '/images/' in settings.py file
+
 
 # Bootstrap 4.2 
 
