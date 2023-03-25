@@ -8,6 +8,10 @@
 4. django-admin startapp myapp
 5. hard refresh => ctrl+shift+all
 
+# Models
+1. python manage.py makemigrations
+2. python manage.py migrate
+
 # Bootstrap 4.2 
 
 1. Navbar link: https://getbootstrap.com/docs/4.2/components/navbar/
