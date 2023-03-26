@@ -26,10 +26,11 @@ Bypass password validation and create user anyway? [y/N]: y
 Superuser created successfully.`        
 
 6. Run => python manage.py runserver        
-7. check => http://127.0.0.1:8000/admin/        
+7. Check => http://127.0.0.1:8000/admin/        
 8. add some products in admin sites and write views functions to display product details on products
 9. Upload the images in admin/admin/myapp/product/ after setting MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images') in settings.py file 
-10. set MEDIA_URL =  '/images/' in settings.py file
+10. Set MEDIA_URL =  '/images/' in settings.py file
+11. Create new customers, order and order items in admin side
 
 
 # Bootstrap 4.2 
