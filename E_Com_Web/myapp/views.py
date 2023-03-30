@@ -2,6 +2,7 @@ from django.shortcuts import render
 from .models import *
 from django.http import JsonResponse
 import json 
+from django.views.decorators.csrf import csrf_exempt
 
 # Create your views here.
 
@@ -36,6 +37,7 @@ def cart(request):
     context = {'items':items, 'order':order, 'cart_items': cart_items}
     return render(request, 'store/cart.html', context)
 
+@csrf_exempt
 def checkout(request):
     if request.user.is_authenticated:
         customer = request.user.customer
@@ -73,3 +75,8 @@ def update_item(request):
         order_item.delete()
 
     return JsonResponse('Item was added', safe=False)
+
+@csrf_exempt
+def processOrder(request):
+    print("Data: ", request.body)
+    return JsonResponse('Payment complete', safe=False)
