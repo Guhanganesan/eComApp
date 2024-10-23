@@ -26,7 +26,13 @@ SECRET_KEY = 'django-insecure-wm9#&c6oc17x*w(&3ub8w%%l6q=^cc_lcuc(q%sl=1uyy-a!x+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
+
+# SECURE_SSL_REDIRECT = True
+# SECURE_HSTS_SECONDS = 31536000  # Enable HSTS for one year (set to 0 to disable)
+# SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+# SECURE_HSTS_PRELOAD = True
+# SECURE_SSL_REDIRECT = True
 
 
 # Application definition
@@ -77,8 +83,14 @@ WSGI_APPLICATION = 'E_Com_Web.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'eComApp',        # Replace with your database name
+        'USER': 'postgres',        # Replace with your database username
+        'PASSWORD': '1234',         # Replace with your database password
+        'HOST': 'localhost',           # Or the host of your PostgreSQL server
+        'PORT': '5432', 
     }
 }
 

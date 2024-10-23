@@ -56,3 +56,8 @@ Superuser created successfully.`
 1. Cannot use ImageField because Pillow is not installed 
 
 Solution: python -m pip install Pillow 
+
+# NgRok 
+
+1. https://dashboard.ngrok.com/get-started/setup/windows
+
